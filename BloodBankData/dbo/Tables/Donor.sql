@@ -1,5 +1,8 @@
 ﻿CREATE TABLE [dbo].[Donor]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
-    [PeopleId] NCHAR(10) NULL
+    [PeopleId] INT NULL, 
+    [Weight] DECIMAL(3, 1) NULL,
+	[BloodGroupId] tinyint not null,
+    [LastDonationDate] DATE NULL
 )

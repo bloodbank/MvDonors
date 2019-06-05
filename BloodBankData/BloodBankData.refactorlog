@@ -21,4 +21,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="DocumentTypeId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="acdc2617-8adb-4b1b-982b-099b32439f97" ChangeDateTime="06/05/2019 14:07:07">
+    <Property Name="ElementName" Value="[dbo].[BloodGroup].[AntiA]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BloodGroup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ACells" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="27206ab9-36be-4820-b3ef-090de59b9b72" ChangeDateTime="06/05/2019 14:07:15">
+    <Property Name="ElementName" Value="[dbo].[BloodGroup].[AntiB]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BloodGroup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BCells" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0cb7ba28-f861-4484-8ab4-dab77990d7b8" ChangeDateTime="06/05/2019 14:08:31">
+    <Property Name="ElementName" Value="[dbo].[BloodGroup].[Text]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BloodGroup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GroupRh" />
+  </Operation>
 </Operations>
