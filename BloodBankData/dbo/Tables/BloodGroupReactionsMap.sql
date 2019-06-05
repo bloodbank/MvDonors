@@ -9,6 +9,6 @@
     [ACells] BIT NOT NULL, 
     [BCells] BIT NOT NULL, 
     [OCells] BIT NOT NULL, 
-    [Du] BIT NOT NULL, 
+    [Du] BIT NOT NULL, /*Du should be ignored by spplication if D is positive.*/
     CONSTRAINT [FK_BloodGroupReactionsMap_BloodGroup] FOREIGN KEY ([BloodGroupId]) REFERENCES [BloodGroup]([Id])
 )
