@@ -42,4 +42,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="GroupRh" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="bb6704da-9c84-49cd-914d-166a2cc9bf64" ChangeDateTime="06/05/2019 14:28:42">
+    <Property Name="ElementName" Value="[dbo].[BloodGroupReactionsMap].[BloodGroupId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BloodGroupReactionsMap]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="A" />
+  </Operation>
 </Operations>
