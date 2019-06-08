@@ -68,8 +68,8 @@
     <Build Include="dbo\Tables\Donor.sql" />
     <Build Include="dbo\Tables\BloodGroup.sql" />
     <Build Include="dbo\Tables\BloodGroupReactionsMap.sql" />
-    <Build Include="dbo\Tables\Bags.sql" />
-    <Build Include="dbo\Tables\BagLots.sql" />
+    <Build Include="dbo\Tables\Bag.sql" />
+    <Build Include="dbo\Tables\BagLot.sql" />
     <Build Include="dbo\Tables\BagType.sql" />
     <Build Include="dbo\Tables\BagBrand.sql" />
     <Build Include="dbo\Tables\Anticoagulant.sql" />

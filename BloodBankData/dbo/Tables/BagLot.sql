@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[BagLots]
+﻿CREATE TABLE [dbo].[BagLot]
 (
 	[LotNumber] CHAR(10) NOT NULL PRIMARY KEY, 
     [ManufactureDate] DATE NOT NULL, 
