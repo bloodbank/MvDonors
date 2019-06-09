@@ -77,4 +77,7 @@
   <ItemGroup>
     <RefactorLog Include="BloodBankData.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BloodBankData.publish.xml" />
+  </ItemGroup>
 </Project>
